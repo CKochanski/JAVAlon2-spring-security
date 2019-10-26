@@ -2,10 +2,8 @@
 <body>
 
 <a href="/logout">Wyloguj</a>
-<h2>Chroniona strona dostepna dla kazdego uzytkownika!</h2>
+<h2>Chroniona strona dostepna dla super uzytkowników!</h2>
 <a href="/admin">Panel administracyjny</a>
-
-<a href="/super">Panel Super</a>
 
 
 </body>

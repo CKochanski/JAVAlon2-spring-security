@@ -1,5 +1,6 @@
 package pl.sda.spring.controller;
 
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -26,4 +27,10 @@ public class AppController {
     public ModelAndView getAccessDeniedPage() {
         return new ModelAndView("accessDenied");
     }
+
+    @GetMapping("/super")
+    public ModelAndView getSuperPage() {
+        return new ModelAndView("super");
+    }
 }
+
